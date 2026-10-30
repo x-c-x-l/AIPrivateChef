@@ -1,0 +1,33 @@
+{
+  "name": "AI私人厨师",
+  "appid": "",
+  "description": "上传食材图片，获取个性化食谱推荐",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "h5": {
+    "title": "AI 私人厨师",
+    "router": {
+      "mode": "hash"
+    },
+    "devServer": {
+      "port": 3001,
+      "proxy": {
+        "/api": {
+          "target": "http://localhost:8001",
+          "changeOrigin": true,
+          "pathRewrite": {
+            "^/api": "/api"
+          }
+        }
+      }
+    }
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  }
+}
