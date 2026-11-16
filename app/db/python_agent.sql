@@ -59,7 +59,7 @@ CREATE TABLE `users`  (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES (1, 'admin', '$2b$10$zljHQ1OzC5OM7qvwq7SqGuzjwq.tXp2VXmabfIM98lUgd.6oAEktS', '本人', '1135626261@qq.com', '18781607181', 1, NULL, NULL, '2026-07-03 11:35:13', '2026-07-03 11:35:19');
+INSERT INTO `users` VALUES (1, 'admin', '$2b$10$zljHQ1OzC5OM7qvwq7SqGuzjwq.tXp2VXmabfIM98lUgd.6oAEktS', '本人', '626261@qq.com', '18788888888', 1, NULL, NULL, '2026-07-03 11:35:13', '2026-07-03 11:35:19');
 INSERT INTO `users` VALUES (2, 'test', '$2b$12$Lq5Y4j9lueqMUwiNL6cjh.c3aHzIypTuXbWyp7dAme3peDV8ZEN2q', '测试', '', '', 1, NULL, NULL, '2026-07-04 09:51:23', '2026-07-04 09:51:23');
 
 SET FOREIGN_KEY_CHECKS = 1;
